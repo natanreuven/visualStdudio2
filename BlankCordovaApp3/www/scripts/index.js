@@ -7,7 +7,7 @@
     "use strict";
 
     document.addEventListener( 'deviceready', onDeviceReady.bind( this ), false );
-    //var url_media = "https://sites.google.com/site/natanmp912912/ping/ping.mp3?attredirects=0&d=1";
+    var url_media = "https://sites.google.com/site/natanmp912912/ping/ping.mp3?attredirects=0&d=1";
     //var my_media = new Media(url_media);
 
     function onDeviceReady() {
@@ -21,7 +21,8 @@
         var receivedElement = parentElement.querySelector('.received');
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-        var url_media = "/images/ping.mp3";
+//        var url_media = "/images/ping.mp3";
+        var url_media = "https://sites.google.com/site/natanmp912912/ping/ping.mp3";
 
         var my_media = new Media(url_media);
         //my_media.play; 
