@@ -22,12 +22,12 @@
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 //        var url_media = "/images/ping.mp3";
-        var url_media = "https://sites.google.com/site/natanmp912912/ping/ping.mp3";
+        //var url_media = "https://soundcloud.com/user-994177823/ping";
 
         var my_media = new Media(url_media);
         //my_media.play; 
         console.log(my_media);
-        document.getElementById("stam button1").onclick = function () { playmedia(my_media) };
+        document.getElementById("stam button1").onclick = function () { playAudio(https://soundcloud.com/user-994177823/ping) };
     };
 
     function onPause() {
@@ -37,6 +37,8 @@
     function onResume() {
         // TODO: This application has been reactivated. Restore application state here.
     };
+
+
     function playmedia(media_object) {
 
         alert("BEFORE MEDIA  2 ");
@@ -44,4 +46,5 @@
         //ping1.play();
         alert("AFTER MEDIA  ");
     }
-} )();
+
+ )
